@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import { Route, Routes, useLocation } from 'react-router-dom'
+import { Route, Routes, useLocation , HashRouter} from 'react-router-dom'
 import Home from './Home'
 import DisplayAlbum from './DisplayAlbum'
 import { albumsData } from '../assets/assets'
